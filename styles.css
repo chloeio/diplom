@@ -11,8 +11,15 @@
     background: url("images/fon.jpg");
     background-repeat:no-repeat;
     background-size: cover; 
+    position: relative;
+    background-attachment: fixed;
 }
-.logo, .top_menu {
+.logo {
+    display: inline-block;
+    display: flex;
+    margin-left: 10px;
+}
+.top_menu {
     display: inline-block;
     display: flex;
     justify-content: center;
@@ -32,13 +39,13 @@
     color:rgb(124, 227, 245);
 }
 .logo h1{
-    font-family: Comic Sans MS;
+    font-family: Arial;
     font-size: 30px;
     color: white;
 }
 .center {
-    width: 700px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
     background:rgb(255, 255, 255);
     position: absolute;
     left: 65%;
@@ -50,9 +57,64 @@ h3{
     color:rgb(0, 0, 0);
     font-family: Comic Sans MS;
     font-size: 30px;
-    position: relative;
+    position: absolute;
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
     font-weight: normal;
+}
+
+.block1 {
+    height: 1000px;
+}
+h5{
+    color:rgb(0, 0, 0);
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 5%;
+    left: 70;
+    transform: translateY(-50%);
+    font-weight: normal;
+}
+.enemy{
+    color:rgb(0, 0, 0);
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 35%;
+    left: 70;
+    transform: translateY(-50%);
+    font-weight: normal;
+}
+.enemy a{
+    color:black;
+    text-decoration: none;
+}
+.kvadrat {
+    width: 800px;
+    height: 650px;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+.dllc{
+    color:rgb(0, 0, 0);
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 35%;
+    left: 70;
+    transform: translateY(-50%);
+    font-weight: normal;
+}
+.dllc a{
+    color:black;
+    text-decoration: none;
 }
